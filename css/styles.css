@@ -596,6 +596,7 @@ p {
 .footer-subscribe-form{
   display: flex;
   margin-left: 80px;
+  gap: 24px;
   
 }
 .footer-subscribe-lable{
