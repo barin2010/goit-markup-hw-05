@@ -653,6 +653,7 @@ p {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .is-hidden {
   opacity: 0;
@@ -671,6 +672,7 @@ p {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0 24px;
 }
 .modal-window-button {
   position: absolute;
@@ -699,11 +701,58 @@ p {
 .modal-button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .modal-button-svg:hover
-.modal-button-svg:focus{
-/* fill: #ffffff;
-background-color: #404bbf;
-  border: none; */
+.modal-text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color:var(--primary-black-color);
+  margin-bottom: 16px;
+  margin-top: 72px;
+}
+.modal-text-form {
+
+}
+.modal-text-box{
+  margin-bottom: 8px;
+}
+.modal-text-name{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--basic-color-icon);
+  display: block;
+  margin-bottom: 4px;
+}
+.modal-text-name-box{
+  position: relative;
+}
+.modal-text-username{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #4D5AE5;
+}
+.madal-name-svg{
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.modal-text-name-box:hover .madal-name-svg {
+ fill: #4D5AE5;}
+
+.modal-text-name-box:focus .madal-name-svg{
+  fill: #4D5AE5;
+}
 
 /* ---------------------------------PORTFOLIO----------------------------------------- */
 
