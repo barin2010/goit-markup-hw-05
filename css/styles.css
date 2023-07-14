@@ -691,7 +691,7 @@ p {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-window-button:hover,
 .modal-window-button:focus {
@@ -740,6 +740,7 @@ p {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4D5AE5;
+  
 }
 .madal-name-svg{
   position: absolute;
@@ -771,7 +772,7 @@ p {
   padding: 8px 16px;
   outline: transparent;
   resize: none;
-  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color :250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .modai-check{
@@ -787,6 +788,9 @@ visually: hidden;
   color:var(--basic-color-icon);
 
 }
+.check-input-link{
+  color:var(--basic-color-logo);
+}
 .modal-check-spun{
   width: 16px;
   height: 16px;
@@ -799,6 +803,23 @@ visually: hidden;
   fill: transparent;
 }
 .modal-check-svg{
+  
+}
+.modai-check-button{
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--basic-white-color);
+  cursor: pointer;
+  background-color:var(--basic-color-logo);
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
