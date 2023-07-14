@@ -752,20 +752,21 @@ p {
 
 
 
+
 .madal-name-svg{
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-.modal-text-username:hover .madal-name-svg {
- fill: #4D5AE5;}
-
-.modal-text-username:focus .madal-name-svg{
+.modal-text-name-box:hover .madal-name-svg,
+.modal-text-name-box:focus .madal-name-svg {
   fill: #4D5AE5;
 }
+
+
+
 .modal-comments{
   margin-bottom: 16px;
 }
