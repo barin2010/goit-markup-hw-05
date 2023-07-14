@@ -805,10 +805,12 @@ p {
 
 }
 .check-input-link{
+  
   color:var(--basic-color-logo);
+
 }
 .modal-check-spun{
-  width: 16px;
+   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
@@ -817,6 +819,7 @@ p {
   align-items: center;
   justify-content: center;
   fill: transparent;
+
 }
 .modal-check-svg{
   
