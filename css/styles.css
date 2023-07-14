@@ -745,6 +745,13 @@ p {
   /* border-color: #4D5AE5; */
   
 }
+.modal-text-username:hover,
+.modal-text-username:focus{
+  border-color: #4D5AE5;
+}
+
+
+
 .madal-name-svg{
   position: absolute;
   left: 16px;
@@ -753,10 +760,10 @@ p {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.modal-text-name-box:hover .madal-name-svg {
+.modal-text-username:hover .madal-name-svg {
  fill: #4D5AE5;}
 
-.modal-text-name-box:focus .madal-name-svg{
+.modal-text-username:focus .madal-name-svg{
   fill: #4D5AE5;
 }
 .modal-comments{
@@ -769,7 +776,7 @@ p {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  /* border: 1px solid rgba(46, 47, 66, 0.4); */
   border-radius: 4px;
   background-color: transparent;;
   padding: 8px 16px;
@@ -778,11 +785,14 @@ p {
   border-color :250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.text-comments:hover{
+  border-color: #4D5AE5;
+}
 .modai-check{
   margin-bottom: 24px;
 }
 .modai-check-input{
-visually: hidden;
+
 }
 .check-input-lable{
   font-size: 12px;
