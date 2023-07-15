@@ -817,7 +817,7 @@ p {
 .modai-check-input:checked .modal-check-spun{
   background-color:var(--hover-color);
   border: none;
-  fill:var(--secondary-white-color)
+  fill:var(--secondary-white-color);
 }
 .modal-check-spun{
    width: 16px;
