@@ -786,6 +786,10 @@ p {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.text-comments:hover,
+.text-comments:focus{
+  border-color: #4D5AE5;
+}
 
 
 .modai-check{
