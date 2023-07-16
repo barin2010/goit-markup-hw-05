@@ -542,7 +542,9 @@ p {
   max-width: 264px;
 }
 
-/* .footer-social {} */
+.footer-social {
+  margin-right: 80px;
+}
 
 .social-name {
   font-weight: 500;
@@ -591,16 +593,15 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--basic-white-color);
-  margin-left: 80px;
+  
 }
 .footer-subscribe-form{
   display: flex;
-  margin-left: 80px;
   gap: 24px;
   
 }
 .footer-subscribe-lable{
-  margin-right: 24px;
+  /* margin-right: 24px; */
   /* gap: 24px; */
 
 
@@ -806,9 +807,13 @@ p {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color:var(--basic-color-icon);
+  border-color: #4D5AE5;
 
 }
+.check-input-lable:focus {
+  border-color: #4D5AE5;
+}
+
 .check-input-link{
   
   color:var(--basic-color-logo);
@@ -829,13 +834,17 @@ p {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 
+}
+.modal-check-spun:hover{
+  border-color:var(--basic-color-logo);
 }
 .modal-check-svg{
   
 }
 .modai-check-button{
-  display: block;
+  display:block;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -849,6 +858,8 @@ p {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  justify-content: center;
+  margin: 0 auto;
 
 }
 
