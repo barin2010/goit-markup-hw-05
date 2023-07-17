@@ -808,6 +808,7 @@ p {
   line-height: 1.17;
   letter-spacing: 0.04em;
   border-color: #4D5AE5;
+  color:var(--basic-color-icon)
 
 }
 .check-input-lable:focus {
